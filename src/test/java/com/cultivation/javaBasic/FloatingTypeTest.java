@@ -63,12 +63,18 @@ class FloatingTypeTest {
     @SuppressWarnings("unused")
     private boolean isNan(double realNumber) {
         // TODO: please implement the method to pass the test.
+        if (realNumber == Double.NaN) {
+            return true;
+        }
         throw new NotImplementedException();
     }
 
     @SuppressWarnings("unused")
     private boolean isInfinity(double realNumber) {
         // TODO: please implement the method to pass the test.
+        if (realNumber == Double.POSITIVE_INFINITY) {
+            return true;
+        }
         throw new NotImplementedException();
     }
 
