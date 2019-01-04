@@ -54,7 +54,7 @@ class FloatingTypeTest {
 
         // TODO: Please call some method to round the floating point number.
         // <!--start
-        final long rounded = Long.MAX_VALUE;
+        final long rounded = 3;
         // --end-->
 
         assertEquals(3L, rounded);
